@@ -74,6 +74,10 @@ Bug reports and feature requests should be posted in LightHouse.
 	
 Bugs always have priority over new features! But, you're free to help out with whatever you want. 
 
+h2. Screenshot
+
+<img src="http://img.skitch.com/20100609-m93t5i1yjud358fq8pgufymskf.jpg" alt="BaseApp"/>
+
 h2. Credits
 
 BaseAPP is developed by "Kabisa ICT":http://kabisa.nl, "Ariejan de Vroom":http://ariejan.net and a whole bunch of "cool contributors":http://github.com/ariejan/baseapp/network. 
