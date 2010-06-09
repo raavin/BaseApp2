@@ -83,7 +83,7 @@ require 'controller_spec_controller'
     end
 
     it "should provide access to session" do
-      session[:session_key] = "session value"
+      session[:key] = "session value"
       lambda do
         get 'action_which_gets_session', :expected => "session value"
       end.should_not raise_error

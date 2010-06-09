@@ -5,11 +5,11 @@ development: &local
     site_name: BaseApp
     site_url: baseapp.local
     
-    company_name: Kabisa ICT
-    admin_email: admin@test.com
+    company_name: BaseApp Ltd
+    admin_email: admin@baseapp.local
     
-    support_name: Support
-    support_email: support@test.com
+    support_name: BaseApp Support
+    support_email: support@baseapp.local
 
 production:
   <<: *local

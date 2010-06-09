@@ -1,3 +1,8 @@
+09-06-2010 - Danny McClelland
+================================================================================
+ * Updated to work with Rails 2.3.8
+ * Removed OpenID function for compatibility reasons
+
 24-02-2008 - ariejan
 ================================================================================
  * Created initial base_app project

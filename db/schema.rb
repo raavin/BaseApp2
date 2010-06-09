@@ -11,21 +11,6 @@
 
 ActiveRecord::Schema.define(:version => 20081023115224) do
 
-  create_table "open_id_authentication_associations", :force => true do |t|
-    t.integer "issued"
-    t.integer "lifetime"
-    t.string  "handle"
-    t.string  "assoc_type"
-    t.binary  "server_url"
-    t.binary  "secret"
-  end
-
-  create_table "open_id_authentication_nonces", :force => true do |t|
-    t.integer "timestamp",                  :null => false
-    t.string  "server_url"
-    t.string  "salt",       :default => "", :null => false
-  end
-
   create_table "profiles", :force => true do |t|
     t.integer  "user_id"
     t.string   "real_name"
@@ -65,7 +50,7 @@ ActiveRecord::Schema.define(:version => 20081023115224) do
     t.string   "activation_code",           :limit => 40
     t.string   "state",                                    :default => "passive"
     t.datetime "remember_token_expires_at"
-    t.string   "password_reset_cod"
+    t.string   "password_reset_code"
     t.datetime "activated_at"
     t.datetime "deleted_at"
     t.datetime "created_at"

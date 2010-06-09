@@ -28,11 +28,6 @@ class UsersController < ApplicationController
     if request.put?
       begin
         @user = User.find_by_email(params[:email], :conditions => ['NOT state = ?', 'deleted'])
-        
-        if ! @user.not_using_openid?
-          flash[:notice] = "You cannot help you, you're using OpenID!"
-          redirect_to :back
-        end
       rescue
         @user = nil
       end
@@ -56,12 +51,7 @@ class UsersController < ApplicationController
       if @user.nil?
         flash.now[:error] = 'No account was found by that login or email address.'
       else
-        if ! @user.not_using_openid?
-          flash[:notice] = "You cannot reset your password here. You are using OpenID!"
-          redirect_to :back
-        else
           @user.forgot_password if @user.active?
-        end
       end
     else
       # Render forgot_password.html.erb
