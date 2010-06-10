@@ -2,7 +2,7 @@
 #   configatron.site_name
 
 development: &local
-    site_name: BaseApp
+    site_name: BaseApp Local
     site_url: baseapp.local
     
     company_name: BaseApp Ltd
