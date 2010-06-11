@@ -6,7 +6,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
 	<title><%= configatron.site_name %></title>
-	
+
 	<%= stylesheet_link_merged :base %>
   	<%= javascript_include_merged :base %>
   
@@ -42,7 +42,8 @@
   </div>
   <div id="footer">
     <%= configatron.site_name %> by <%= configatron.company_name %><br />
-	Copyright © <%= configatron.company_name %>
+	Copyright © <%= configatron.company_name %><br />
+	<%= configatron.site_envnote %>
   </div>
 
 

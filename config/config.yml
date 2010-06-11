@@ -1,8 +1,8 @@
 # Configuration options can be accessed as
-#   configatron.site_name
+# configatron.site_name
 
 development: &local
-    site_name: BaseApp Local
+    site_name: BaseApp
     site_url: baseapp.local
     
     company_name: BaseApp Ltd
@@ -10,9 +10,20 @@ development: &local
     
     support_name: BaseApp Support
     support_email: support@baseapp.local
+    
+    site_envnote: Local Server
 
 production:
-  <<: *local
+    site_name: BaseApp
+    site_url: www.baseapp.com
+    
+    company_name: BaseApp Ltd
+    admin_email: admin@baseapp.com
+    
+    support_name: BaseApp Support
+    support_email: support@baseapp.com
+    
+    site_envnote: Production Server
   
 staging:
   <<: *local
