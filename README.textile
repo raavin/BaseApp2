@@ -80,7 +80,7 @@ Bugs always have priority over new features! But, you're free to help out with w
 h2. Screenshots
 
 Desktop Version
-<img src="http://img.skitch.com/20100609-m93t5i1yjud358fq8pgufymskf.jpg" alt="BaseApp" width="500px"/>
+<img src="http://img.skitch.com/20100609-m93t5i1yjud358fq8pgufymskf.jpg" alt="BaseApp" width="650px"/>
 
 Mobile Version
 <img src="http://cl.ly/05173a1bdfe762a6dbc0/content" alt="BaseApp Mobile" />
