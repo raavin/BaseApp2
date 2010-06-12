@@ -9,6 +9,7 @@
 
 	<%= stylesheet_link_merged :base %>
   	<%= javascript_include_merged :base %>
+	<%= stylesheet_link_tag 'mobile' if mobile_device? %>
   
 </head>
 
@@ -44,6 +45,13 @@
     <%= configatron.site_name %> by <%= configatron.company_name %><br />
 	Copyright © <%= configatron.company_name %><br />
 	<%= configatron.site_envnote %>
+	<p>
+	  <% if mobile_device? %>
+	    <%= link_to "Full Site", :mobile => 0 %>
+	  <% else %>
+	    <%= link_to "Mobile Site", :mobile => 1 %>
+	  <% end %>
+	</p>
   </div>
 
 
