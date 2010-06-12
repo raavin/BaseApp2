@@ -32,6 +32,16 @@ It's still possible to store user changeable settings in the database model Sett
 
 Note: As long as there are no Settings in the database, the 'Settings' tab for the administrator is hidden. Once you add a Setting to the database through a migration (or otherwise), the Settings tab will show up. 
 
+h2. Asset Packaging
+
+BaseApp makes use of the asset packager plugin, which compresses all of your javascript and stylesheet files into one file (and link) to speed up load times and in some ways development.
+
+You can view details of the plugin at: http://github.com/sbecker/asset_packager
+
+For quick starting though, all you need to do if you change the files, simply run:
+
+@rake asset:packager:build_all@
+
 h2. Features
 
 * Layout
