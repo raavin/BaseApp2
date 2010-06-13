@@ -69,10 +69,10 @@ h2. Screenshots
 
 Desktop Version
 <img src="http://cl.ly/b454e8e53cedd1fbe7b5/content" alt="BaseApp2" width="800px"/>
+<img src="http://cl.ly/fd7231dd4f6c4368ffb3/content" alt="BaseApp2" width="800px"/>
 
 Mobile Version
-<img src="http://cl.ly/f7907620948aa56887a8/content" alt="BaseApp2 Mobile" height="400px" style="float:left" />
-<img src="http://cl.ly/6f2c15a84e2eb9b2d44a/content" alt="BaseApp2 Mobile" width="400px" style="float:left" />
+<img src="http://cl.ly/f7907620948aa56887a8/content" alt="BaseApp2 Mobile" height="400px" />
 
 h2. Credits
 
