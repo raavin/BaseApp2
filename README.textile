@@ -72,7 +72,7 @@ Desktop Version
 
 Mobile Version
 <img src="http://cl.ly/f7907620948aa56887a8/content" alt="BaseApp2 Mobile" height="400px" />
-<img src="http://cl.ly/6f2c15a84e2eb9b2d44a/content" alt="BaseApp2 Mobile" />
+<img src="http://cl.ly/6f2c15a84e2eb9b2d44a/content" alt="BaseApp2 Mobile" width="400px"/>
 
 h2. Credits
 
