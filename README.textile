@@ -65,26 +65,6 @@ h2. Features
 ** Auto detect mobile users/visitors and display different views.
 ** Based on the JQTouch framework, making it easy to theme.
 
-h2. Features, bugs and development!
-
-BaseApp is open source software and relies on your contributions to grow! We have some useful utilities that may help you out.
-
-* "http://baseapp.org":http://baseapp.org
-
-The BaseApp website provides you with up-to-date development information and the latest news regarding BaseApp.
-	
-* "http://github.com/ariejan/baseapp":http://github.com/ariejan/baseapp
-
-GitHub always contains the latest BaseApp code. Fork your own development branch here if you wish to contribute code. 
-
-Pull requests should be send to 'ariejan' to include them in the main BaseApp code base.
-	
-* "http://baseapp.lighthouseapp.com":http://baseapp.lighthouseapp.com
-
-Bug reports and feature requests should be posted in LightHouse. 
-	
-Bugs always have priority over new features! But, you're free to help out with whatever you want. 
-
 h2. Screenshots
 
 Desktop Version
@@ -94,6 +74,8 @@ Mobile Version
 <img src="http://cl.ly/05173a1bdfe762a6dbc0/content" alt="BaseApp Mobile" height="200px" />
 
 h2. Credits
+
+BaseApp2 is developed by Danny McClelland, based on the BaseApp application.
 
 BaseAPP is developed by "Kabisa ICT":http://kabisa.nl, "Ariejan de Vroom":http://ariejan.net and a whole bunch of "cool contributors":http://github.com/ariejan/baseapp/network. 
 
