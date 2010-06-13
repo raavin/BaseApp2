@@ -68,14 +68,14 @@ h2. Features
 h2. Screenshots
 
 Desktop Version
-<img src="http://cl.ly/dc0aa982936f3f09a0c8/content" alt="BaseApp" width="750px"/>
+<img src="http://cl.ly/dc0aa982936f3f09a0c8/content" alt="BaseApp2" width="750px"/>
 
 Mobile Version
-<img src="http://cl.ly/05173a1bdfe762a6dbc0/content" alt="BaseApp Mobile" height="200px" />
+<img src="http://cl.ly/05173a1bdfe762a6dbc0/content" alt="BaseApp2 Mobile" height="200px" />
 
 h2. Credits
 
-BaseApp2 is developed by Danny McClelland, based on the BaseApp application.
+BaseApp2 is developed by "Danny McClelland":http://www.dannyweb.net, based on the BaseApp application.
 
 BaseAPP is developed by "Kabisa ICT":http://kabisa.nl, "Ariejan de Vroom":http://ariejan.net and a whole bunch of "cool contributors":http://github.com/ariejan/baseapp/network. 
 
