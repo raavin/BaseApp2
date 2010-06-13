@@ -68,10 +68,10 @@ h2. Features
 h2. Screenshots
 
 Desktop Version
-<img src="http://cl.ly/dc0aa982936f3f09a0c8/content" alt="BaseApp2" width="750px"/>
+<img src="http://cl.ly/b454e8e53cedd1fbe7b5/content" alt="BaseApp2" width="800px"/>
 
 Mobile Version
-<img src="http://cl.ly/05173a1bdfe762a6dbc0/content" alt="BaseApp2 Mobile" height="200px" />
+<img src="http://cl.ly/f7907620948aa56887a8/content" alt="BaseApp2 Mobile" height="400px" />
 
 h2. Credits
 
