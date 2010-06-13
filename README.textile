@@ -1,8 +1,6 @@
-h1. Welcome to BaseApp
+h1. Welcome to BaseApp2
 
-BaseApp is a default Ruby on Rails project that kick-starts your next Rails project.
-
-Read the next paragraph for a quickstart. Head over to "http://baseapp.org":http://baseapp.org for more detailed documentation or "http://baseapp.lighthouseapp.com":http://baseapp.lighthouseapp.com to report bugs and request features.
+BaseApp2 is a default Ruby on Rails project that kick-starts your next Rails project.
 
 h2. Quickstart
 
