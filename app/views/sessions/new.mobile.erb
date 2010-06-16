@@ -1,0 +1,24 @@
+<% content_for :header do -%>
+<%= configatron.site_name %> Login
+<% end -%>
+
+<% form_tag session_path do -%>
+	&nbsp;
+	<ul>
+		<legend>Login to your <%= configatron.site_name %> Account</legend>
+		
+		
+		<li>Login<%= text_field_tag 'login' %></li>
+		<li>Password:<%= password_field_tag 'password', :title => "Password" %></li>
+		<li>Remember me?<%= check_box_tag 'remember_me', :title => "Password" %></li>
+	</ul>
+	
+<ul>
+	<li><%= link_to "Sign up for an account now", signup_url %></li>
+	<li><%= link_to "Having trouble logging in?", user_troubleshooting_url %></li>
+</ul>
+
+<div id="submitbutton">
+	<p><%= submit_tag 'Log in &raquo;' %></p>
+</div>
+<% end -%>
