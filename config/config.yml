@@ -2,9 +2,9 @@
 # configatron.site_name
 
 development: &local
-    site_name: BaseApp2
+    site_name: SKYS Database
     site_namemobile: BaseApp2 Mobile
-    site_url: baseapp2.local
+    site_url: localhost:3004
     
     company_name: BaseApp2 Ltd
     admin_email: admin@baseapp2.local

@@ -14,9 +14,6 @@ ActionController::Routing::Routes.draw do |map|
   map.user_reset_password  '/users/reset_password/:password_reset_code', :controller => 'users', :action => 'reset_password'
   map.user_forgot_login    '/users/forgot_login',    :controller => 'users', :action => 'forgot_login'
   map.user_clueless        '/users/clueless',        :controller => 'users', :action => 'clueless'
-  
-  map.open_id_complete '/opensession', :controller => "sessions", :action => "create", :requirements => { :method => :get }
-  map.open_id_create '/opencreate', :controller => "users", :action => "create", :requirements => { :method => :get }
     
   map.resources :users, :member => { :edit_password => :get,
                                      :update_password => :put,
