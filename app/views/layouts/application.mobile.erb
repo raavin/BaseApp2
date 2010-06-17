@@ -18,52 +18,9 @@
             <%= yield %>
         </div>
 		
-        <form action="/session" method="post" id="login" accept-charset="utf-8">
-            <div class="toolbar">
-                <h1>Login</h1>
-            </div>
-            <ul class="rounded">
-                <li>
-                    <input id="login" name="login" value="" type="text" placeholder="Username">
-                </li>
-                <li>
-                    <input id="password" name="password" value="" type="password" placeholder="Password">
-                </li>
-	
-				<li>Remember me?<span class="toggle"><input id="remember_me" name="remember_me" type="checkbox" /></span></li>
-				
-            </ul>
-			
-			<ul>
-            	<li><a href="#signup" class="flip">Not signed up? Do it now!</a></li>
-            </ul>
-			<a class="whiteButton submit">Login</a>
-            <a class="grayButton goback">Cancel</a>
-        </form>
+		<%= render :partial => 'sessions/new' %>
+		<%= render :partial => 'users/new' %>
 		
-        <form action="/users" method="post" id="signup">
-            <div style="margin:0;padding:0;display:inline">
-                <input name="authenticity_token" type="hidden" value="lnW1cXoV4q9lLjIR1No+Rix6pOYSd2x0bFCiM+0Ri58=" />
-            </div>
-            
-                <h1>
-                    Your Details
-                </h1>
-                
-				<ul>
-                    <li><input id="user_login" name="user[login]" type="text" placeholder="Username" /></li>
-               
-                    <li><input id="user_email" name="user[email]" type="text" placeholder="email" /></li>
 
-                    <li><input id="user_password" name="user[password]" type="password" placeholder="password"/></li>
-
-                    <li><input id="user_password_confirmation" name="user[password_confirmation]" type="password" placeholder="Confirm Password"/></li>
-				</ul>
-            <ul>
-            	<li><a href="#login" class="flip">Already signed up? Login now!</a></li>
-            </ul>
-            <a class="whiteButton submit">Sign Up</a>
-            <a class="grayButton goback">Cancel</a>
-        </form>
     </body>
 </html>
