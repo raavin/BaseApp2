@@ -1,9 +1,8 @@
-<div id="test">
 <% content_for :header do -%>
 	Change my email address
 <% end -%>
 
-<% form_for :user, @user, :url => update_email_user_url(@user), :html => {:method => :put} do |f| %>
+<% form_for :user, @user, :url => update_email_user_url(@user), :html => {:method => :post} do |f| %>
 
 	<h3>Your new email address</h3>
 
@@ -14,4 +13,4 @@
 	<a class="whiteButton submit">Change</a>
     <a class="grayButton goback">Cancel</a>
 	
-<%end%></div>
+<%end%>

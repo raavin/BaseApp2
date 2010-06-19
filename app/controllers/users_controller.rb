@@ -6,8 +6,7 @@ class UsersController < ApplicationController
               :destroy, 
               :edit_password,   :update_password, 
               :edit_email,      :update_email ]
-  
-  layout 'login'
+
   
   # render new.rhtml
   def new

@@ -1,20 +1,32 @@
+<div id="account_details">
 <h2>Account details</h2>
 <ul>
-	<li><%= h(@user.login) %></li>
+    <li>
+        <%= h(@user.login) %>
+    </li>
+    <li>
+        <%= h(@user.email) %>
+    </li>
+    <li>
+        Password
+        <small>
+            <%=link_to "change", edit_password_user_path(@user), :class => "slideup" %>
+        </small>
+    </li>
+    <li class='arrow'>
+        Email
+        <small>
+            <%=link_to "Edit Email", edit_email_user_url(@user), :class => "slideup" %>
+        </small>
+    </li>
 	
-
+	<li class="arrow"><%= link_to "My Account", profile_url(current_user), :class => "slideup" %></li>
 	
-	<% change_email_text = @user.not_using_openid? ? " <small>#{link_to "test", edit_email_user_path(@user)}</small>" : "" %>
-	
-	<li><%= h(@user.email) %>
-	<%= change_email_text %></li>
-
-	<li><small><%=link_to "change", edit_password_user_path(@user)%></small></li>
-
-	
-
-	
-	<li><%= @user.created_at.to_s(:long) %></li>
-	<li><%= @user.updated_at.to_s(:long) %></li>
-
-	</ul>
+    <li>
+        <%= @user.created_at.to_s(:long) %>
+    </li>
+    <li>
+        <%= @user.updated_at.to_s(:long) %>
+    </li>
+</ul>
+</div>
